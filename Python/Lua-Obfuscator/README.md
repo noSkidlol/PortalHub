@@ -7,7 +7,7 @@
 Key : DISCORD_TOKEN
 Value : your token
 ```
-- Make sure to execute this code into she'll
+- Make sure to execute this code into shell
 ```
 chmod +x bin/*
 pip install -r requirements.txt
