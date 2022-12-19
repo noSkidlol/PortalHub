@@ -10,7 +10,10 @@ import keep_alive
 from itertools import cycle
 
 token = os.environ['DISCORD_TOKEN']
-channel_id = 1053895713739788368
+# don't edit DISCORD_TOKEN into your token read the instructions in README.md
+
+channel_id = 00000000000000
+# edit this to your channel I'd in your server must on (developer mode) in discord
 
 bot = commands.Bot(command_prefix=".")
 bot.remove_command("help")
