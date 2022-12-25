@@ -1,4 +1,3 @@
-
 local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/noSkidlol/PortalHub/main/Lua/UI/Portal-Lib.lua')))()
 local Win = Library:Window({
     Name = "Hoho Hub",
@@ -37,4 +36,4 @@ end)
 
 Win:Label("Example Label")
 
-Win:Init()
+Win:Init() -- Required to fixed the bug thing in UI library
